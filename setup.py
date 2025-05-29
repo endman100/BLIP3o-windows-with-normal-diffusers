@@ -8,6 +8,7 @@ setup(
     package_data={
         "blip3o": [
             "model/*",          # 包含 model 資料夾中的所有檔案
+            "model/*/*",        # 包含 model 資料夾中的子資料夾
         ]
     },
     install_requires=[
