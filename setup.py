@@ -7,8 +7,7 @@ setup(
     include_package_data=True,  # 啟用包含 MANIFEST.in 中指定的檔案
     package_data={
         "blip3o": [
-            "model/*",          # 包含 model 資料夾中的所有檔案
-            "model/*/*",        # 包含 model 資料夾中的子資料夾
+            "model/**"
         ]
     },
     install_requires=[
