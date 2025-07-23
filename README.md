@@ -9,9 +9,9 @@ BLIP3-o is a unified multimodal model that combines the reasoning and instructio
 
 
 - **Fully Open-Source:**
-  - **Pretraining Data:** [24 Million Detailed Captions](https://huggingface.co/datasets/BLIP3o/BLIP3o-Pretrain-Long-Caption), [5 Million Short Captions](https://huggingface.co/datasets/BLIP3o/BLIP3o-Pretrain-Short-Caption), [4 Million JourneyDB](https://huggingface.co/datasets/BLIP3o/BLIP3o-Pretrain-JourneyDB)
+  - **Pretraining Data:** [27 Million Detailed Captions](https://huggingface.co/datasets/BLIP3o/BLIP3o-Pretrain-Long-Caption), [5 Million Short Captions](https://huggingface.co/datasets/BLIP3o/BLIP3o-Pretrain-Short-Caption), [4 Million JourneyDB](https://huggingface.co/datasets/BLIP3o/BLIP3o-Pretrain-JourneyDB)
   - **Instruction Tuning Data:** [60 k GPT-4o Distilled Instruction Tuning Data](https://huggingface.co/datasets/BLIP3o/BLIP3o-60k)
-  - **Model Weights:** [4 B](https://huggingface.co/BLIP3o/BLIP3o-Model-4B), [8 B](https://huggingface.co/BLIP3o/BLIP3o-Model-8B)
+  - **Model Weights:** [4 B](https://huggingface.co/BLIP3o/BLIP3o-Model-4B)  [8 B](https://huggingface.co/BLIP3o/BLIP3o-Model-8B)
   - **Training Code**
 
 
@@ -146,8 +146,7 @@ And you will get reconstruction.png.
 
 - **CLIP + MSE**  
 - **CLIP + Flow Matching** 
-- **VAE + Flow Matching** 
-- **Transfusion, LMFusion** 
+- **VAE + Flow Matching**  
 
 
 
@@ -169,7 +168,7 @@ We suggest to use Qwen-2.5-VL as the backbone, we are fixing some tokenizer issu
 Most of our training data use Huggingface datasets to load **WebDataset**. To download the datasets:
 
 ### T2I Pretraining Dataset  
-#### 👉 [Pretrain](https://huggingface.co/datasets/BLIP3o/BLIP3o-Pretrain-Long-Caption)
+#### 👉 [25 Million Detailed Captions](https://huggingface.co/datasets/BLIP3o/BLIP3o-Pretrain-Long-Caption), [5 Million Short Captions](https://huggingface.co/datasets/BLIP3o/BLIP3o-Pretrain-Short-Caption), [4 Million JourneyDB](https://huggingface.co/datasets/BLIP3o/BLIP3o-Pretrain-JourneyDB)
 
 You can download the datasets by
 ```Shell
