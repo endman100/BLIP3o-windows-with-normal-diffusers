@@ -4,7 +4,7 @@ shortuuid
 torch
 torchvision
 torchaudio
-transformers>=4.51.3
+transformers[torch]>=4.51.3
 accelerate
 peft
 bitsandbytes
