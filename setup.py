@@ -17,7 +17,7 @@ setup(
         "torch",
         "torchvision",
         "torchaudio",
-        "transformers==4.51.3",
+        "transformers",
         "accelerate",
         "peft",
         "bitsandbytes",
